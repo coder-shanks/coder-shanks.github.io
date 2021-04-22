@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/static/css/main.ea1455b2.chunk.css",
+    "main.js": "/static/js/main.a076fd01.chunk.js",
+    "main.js.map": "/static/js/main.a076fd01.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.a6fc7ebe.js",
+    "runtime-main.js.map": "/static/js/runtime-main.a6fc7ebe.js.map",
+    "static/js/2.2648c33b.chunk.js": "/static/js/2.2648c33b.chunk.js",
+    "static/js/2.2648c33b.chunk.js.map": "/static/js/2.2648c33b.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/main.ea1455b2.chunk.css.map": "/static/css/main.ea1455b2.chunk.css.map",
+    "static/js/2.2648c33b.chunk.js.LICENSE.txt": "/static/js/2.2648c33b.chunk.js.LICENSE.txt",
+    "static/media/iconmonstr-github-3.197212f0.svg": "/static/media/iconmonstr-github-3.197212f0.svg",
+    "static/media/iconmonstr-linkedin-3.b433372e.svg": "/static/media/iconmonstr-linkedin-3.b433372e.svg",
+    "static/media/iconmonstr-medium-3.e14f5e39.svg": "/static/media/iconmonstr-medium-3.e14f5e39.svg",
+    "static/media/iconmonstr-twitter-3.b9a1f3fd.svg": "/static/media/iconmonstr-twitter-3.b9a1f3fd.svg",
+    "static/media/shubham_profile.0a76bded.jpg": "/static/media/shubham_profile.0a76bded.jpg",
+    "static/media/straw_hat.11d9b5e3.png": "/static/media/straw_hat.11d9b5e3.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.a6fc7ebe.js",
+    "static/js/2.2648c33b.chunk.js",
+    "static/css/main.ea1455b2.chunk.css",
+    "static/js/main.a076fd01.chunk.js"
+  ]
+}
