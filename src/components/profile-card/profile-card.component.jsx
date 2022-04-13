@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react';
+import React, { useEffect, useState } from "react";
 import {
   Grid,
   GridItem,
@@ -6,15 +6,15 @@ import {
   Tag,
   Text,
   useColorModeValue,
-} from '@chakra-ui/react';
-import Typist from 'react-typist';
+} from "@chakra-ui/react";
+import Typist from "react-typist";
 
-import profilePic from '../../assets/shubham_profile.jpg';
+import profilePic from "../../assets/shubham_profile.jpg";
 
 const ProfileCard = () => {
   const [count, setCount] = useState(0);
-  const typedTextBgColor = useColorModeValue('#1da1f2', '#edf2f7');
-  const typedTextColor = useColorModeValue('#edf2f7', '#1da1f2');
+  const typedTextBgColor = useColorModeValue("#1da1f2", "#edf2f7");
+  const typedTextColor = useColorModeValue("#edf2f7", "#1da1f2");
 
   useEffect(() => {
     setCount(1);
@@ -22,11 +22,11 @@ const ProfileCard = () => {
 
   return (
     <Grid
-      templateColumns={{ base: '1fr', md: '2fr 2fr', lg: '1fr 3fr' }}
+      templateColumns={{ base: "1fr", md: "2fr 2fr", lg: "1fr 3fr" }}
       mt={10}
       p={4}
       gridColumnGap={10}
-      textAlign={{ base: 'center', md: 'inherit' }}
+      textAlign={{ base: "center", md: "inherit" }}
     >
       <GridItem alignSelf="center">
         <Image src={profilePic} borderRadius="full" alt="Shubham Tarade" />
@@ -41,14 +41,14 @@ const ProfileCard = () => {
             onTypingDone={() => setCount(0)}
           >
             <span
-              style={{ fontSize: '24px', fontWeight: 'bold', color: '#1da1f2' }}
+              style={{ fontSize: "24px", fontWeight: "bold", color: "#1da1f2" }}
             >
-              I am{' '}
+              I am{" "}
               <span
                 style={{
                   backgroundColor: `${typedTextBgColor}`,
-                  padding: '4px',
-                  borderRadius: '5px',
+                  padding: "4px",
+                  borderRadius: "5px",
                   color: `${typedTextColor}`,
                 }}
               >
@@ -63,21 +63,29 @@ const ProfileCard = () => {
             </span>
           </Typist>
         ) : (
-          ''
+          ""
         )}
         <br />
         <Text fontSize="lg">
-          Passionate and creative Software developer, Blogger from{' '}
+          Passionate and creative Frontend developer, Blogger from{" "}
           <Tag fontSize="lg">Pune, India</Tag>.
         </Text>
         <br />
         <Text fontSize="lg">
-          Currently working as a software developer at{' '}
-          <Tag fontSize="lg">Siemens Advanta</Tag>
-          handling UI development, APIs, Test Automation and DevOps stuff.
+          Currently working as a frontend developer at{" "}
+          <Tag
+            as="a"
+            fontSize="lg"
+            href="https://www.ycombinator.com/companies/redbrick-ai"
+            target="_blank"
+            rel="noreferrer"
+          >
+            RedBrick AI (YC'W22)
+          </Tag>
+          handling UI development, .
         </Text>
         <Text fontSize="lg">
-          Co-founder at{' '}
+          Co-founder at{" "}
           <Tag
             as="a"
             fontSize="lg"
