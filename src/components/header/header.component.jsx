@@ -1,4 +1,4 @@
-import React from 'react';
+import React from "react";
 import {
   Avatar,
   Button,
@@ -7,33 +7,33 @@ import {
   Icon,
   useColorMode,
   useColorModeValue,
-} from '@chakra-ui/react';
-import { Link } from 'react-router-dom';
-import { FaSun, FaMoon } from 'react-icons/fa';
+} from "@chakra-ui/react";
+import { Link } from "react-router-dom";
+import { FaSun, FaMoon } from "react-icons/fa";
 
-import strawHatPic from '../../assets/straw_hat.png';
-import NavItem from '../nav-item/nav-item.component';
+import strawHatPic from "../../assets/straw_hat.png";
+import NavItem from "../nav-item/nav-item.component";
 
 const navItems = [
-  { page: 'Blogs', routeUrl: '/blogs' },
-  { page: 'Projects', routeUrl: '/projects' },
+  { page: "Blogs", routeUrl: "/blogs" },
+  { page: "Projects", routeUrl: "/projects" },
   {
-    page: 'Resume',
+    page: "Resume",
     routeUrl:
-      'https://drive.google.com/file/d/1oCWBdA7HiicxavpGHsE5IXH1oX3Sm3vP/view?usp=sharing',
+      "https://drive.google.com/file/d/1c4rFr7VEQ_gAhMzXf8-sPza-A7qa76AD/view?usp=sharing",
   },
 ];
 
 const Header = () => {
   const { colorMode, toggleColorMode } = useColorMode();
-  const avatarBgColor = useColorModeValue('gray.100', 'whiteAlpha');
+  const avatarBgColor = useColorModeValue("gray.100", "whiteAlpha");
   return (
     <Flex
-      justifyContent={{ base: 'center', md: 'space-between' }}
+      justifyContent={{ base: "center", md: "space-between" }}
       flexWrap="wrap"
     >
       <Flex>
-        <Button height="52px" marginBottom={{ base: '12px', md: '0' }}>
+        <Button height="52px" marginBottom={{ base: "12px", md: "0" }}>
           <Link to="/">
             <Flex align="center">
               <Avatar
@@ -56,9 +56,9 @@ const Header = () => {
         ))}
         <Button
           onClick={toggleColorMode}
-          marginLeft={{ base: '6px', md: '12px' }}
+          marginLeft={{ base: "6px", md: "12px" }}
         >
-          <Icon as={colorMode === 'light' ? FaMoon : FaSun} />
+          <Icon as={colorMode === "light" ? FaMoon : FaSun} />
         </Button>
       </Flex>
     </Flex>
