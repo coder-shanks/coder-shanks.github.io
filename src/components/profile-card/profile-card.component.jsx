@@ -72,15 +72,15 @@ const ProfileCard = () => {
         </Text>
         <br />
         <Text fontSize="lg">
-          Currently working as a frontend developer at{" "}
+          Currently working as a senior frontend developer at{" "}
           <Tag
             as="a"
             fontSize="lg"
-            href="https://www.ycombinator.com/companies/redbrick-ai"
+            href="https://www.globant.com/"
             target="_blank"
             rel="noreferrer"
           >
-            RedBrick AI (YC'W22)
+            Globant
           </Tag>
           handling UI development, .
         </Text>
